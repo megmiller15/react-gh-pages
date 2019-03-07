@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
-import logo from './logo.png';
-import './App.css';
+import EpicMenu from './EpicMenu';
+
+import logo from './logo1.png';
 
 class App extends Component {
   render() {
+    let links = [
+      { label: 'Home', link: '#home', active: true },
+      { label: 'About', link: '#about' },
+      { label: 'Portfolio', link: '#portfolio' },
+      { label: 'Contact Us', link: '#contact-us' },
+    ];
+
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="Logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          
-        
-        </header>
+      <div className="container center">
+        <EpicMenu links={links} logo={logo} />
       </div>
     );
   }
