@@ -95,3 +95,11 @@
     padding: 5px;
     font-weight: 300;
 }
+
+@media only screen and (max-width: 767px) {
+    .menu{
+        display:none;
+    }
+    
+    
+    }

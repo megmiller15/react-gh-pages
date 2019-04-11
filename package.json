@@ -5,10 +5,18 @@
   "homepage": "https://megmiller15.github.io/react-gh-pages",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "react": "^16.8.3",
+    "css-loader": "^2.1.1",
+    "cssloader": "^1.1.1",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.4",
     "react-bootstrap": "^1.0.0-beta.5",
-    "react-dom": "^16.8.3",
-    "react-scripts": "^2.1.6"
+    "react-dom": "^16.8.4",
+    "react-grid-system": "^4.4.3",
+    "react-mailto": "^0.4.0",
+    "react-scripts": "^2.1.8",
+    "react-scrollchor": "^6.0.0",
+    "reactstrap": "^7.1.0",
+    "sass-loader": "^7.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -28,6 +36,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.0.1",
+    "style-loader": "^0.23.1"
   }
 }
